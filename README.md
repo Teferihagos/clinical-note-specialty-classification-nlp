@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-## Project Overview
-
-This project uses Natural Language Processing (NLP) and machine learning to classify clinical notes into medical specialties. The goal is to simulate a healthcare workflow where unstructured clinical text must be organized automatically.
+This project uses Natural Language Processing (NLP) and machine learning to classify clinical notes into medical specialties. The goal is to simulate a healthcare workflow in which unstructured clinical text must be automatically organized.
 
 This project follows a production-style structure by separating preprocessing, training, and evaluation into modular Python scripts.
 
@@ -62,7 +60,7 @@ Logistic Regression performed better than Linear SVM on this dataset. This sugge
 * The model performed best on large classes such as Surgery.
 * Smaller specialties were harder to classify because of class imbalance.
 * The normalized confusion matrix showed that several specialties were frequently confused with dominant classes.
-* Testing multiple models was important, because the more advanced-sounding model did not perform better.
+* Testing multiple models was important because the more advanced-sounding model did not perform better.
 
 ## Project Structure
 
